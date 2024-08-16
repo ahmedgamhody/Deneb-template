@@ -1,0 +1,14 @@
+.box {
+  border: 2px dashed #fff;
+  transition: 0.4s;
+  -webkit-transition: 0.4s;
+  -moz-transition: 0.4s;
+  -ms-transition: 0.4s;
+  cursor: pointer;
+  -o-transition: 0.4s;
+}
+
+.box:hover {
+  border-color: #feb000;
+  box-shadow: 2.5px 4.33px 15px #00000026;
+}

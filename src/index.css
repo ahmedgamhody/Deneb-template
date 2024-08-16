@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  font-family: "Moderustic", sans-serif;
+}
+
+p {
+  color: #7a808d;
+}
+
+.main-header {
+  position: relative;
+  text-align: center;
+  font-weight: bold;
+  font-size: 45px;
+  margin-bottom: 20px;
+}
+.main-header::after {
+  content: "";
+  position: absolute;
+  top: -10px;
+  left: -101px;
+  background-image: url("./Assets/Untitled.png");
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  z-index: -1;
+  background-position: center;
+}

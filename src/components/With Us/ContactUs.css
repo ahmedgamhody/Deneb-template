@@ -1,0 +1,9 @@
+.form-control {
+  box-shadow: 2.5px 4.33px 15px #00000026 !important;
+  border-radius: 30px !important;
+  -webkit-border-radius: 30px !important;
+  -moz-border-radius: 30px !important;
+  -ms-border-radius: 30px !important;
+  -o-border-radius: 30px !important;
+  padding: 10px 20px;
+}
